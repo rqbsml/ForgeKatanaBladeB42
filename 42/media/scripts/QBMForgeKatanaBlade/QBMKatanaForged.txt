@@ -38,7 +38,7 @@ module Base {
         SwingAnim = Bat,
         SwingSound = KatanaSwing,
         Swingtime = 3.0,
-        Tags = base:ignorezombiedensity;base:hasmetal;base:fullblade;base:sharpenable;base:sharpknife,
+        Tags = base:ignorezombiedensity;base:hasmetal;base:fullblade;base:sharpenable,
         TreeDamage = 1,
         TwoHandWeapon = true,
         WeaponLength = 0.4,

@@ -1,2 +1,7 @@
-id=QibuModTest1
-name=Qibu Mod Test 1
+name=Forge Katana Blade B42
+id=QBMForgeKatanaBlade
+poster=poster.png
+description=Work in Progress. Adds katana forging recipes to Build 42 blacksmithing system.
+author=Qibu
+icon=icon.png
+versionMin=42.0.0

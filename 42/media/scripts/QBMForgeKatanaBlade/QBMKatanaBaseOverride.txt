@@ -5,12 +5,16 @@ module Base {
     {
         ItemType = base:normal,
         Tags = base:fullblade;base:sharpenable;base:showcondition,
+        ConditionMax = 10,
+        Sharpness = 1.0,
+        Researchablerecipes = Forge_Katana_Blade,
     }
 
     /*@soft-override*/
     item Katana
     {
         ItemType = base:weapon,
-        Tags = base:sharpenable;base:sharpknife,
+        Tags = base:sharpenable,
+        Researchablerecipes = Forge_Katana_Blade,
     }
 }
