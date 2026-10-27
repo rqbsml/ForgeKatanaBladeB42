@@ -1,0 +1,16 @@
+module Base {
+
+   /*@soft-override*/
+    item Katana_Blade
+    {
+        ItemType = base:normal,
+        Tags = base:fullblade;base:sharpenable;base:showcondition,
+    }
+
+    /*@soft-override*/
+    item Katana
+    {
+        ItemType = base:weapon,
+        Tags = base:sharpenable;base:sharpknife,
+    }
+}
