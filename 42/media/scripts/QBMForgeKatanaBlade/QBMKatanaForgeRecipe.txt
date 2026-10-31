@@ -4,6 +4,9 @@ module Base {
         time = 900,
         NeedToBeLearn = true,
         timedAction = HammerMetalStanding,
+        SkillRequired = Blacksmith:9,
+        AutoLearnAll = Blacksmith:10;LongBlade:4,
+        xpAward = Blacksmith:100,
         Tags = AdvancedForge,
         category = Blade,
         inputs
