@@ -4,15 +4,12 @@ module Base {
         time = 900,
         NeedToBeLearn = true,
         timedAction = HammerMetalStanding,
-        SkillRequired = Blacksmith:10,
-        AutoLearnAll = Blacksmith:10;LongBlade:10,
-        xpAward = Blacksmith:100,
         Tags = AdvancedForge,
         category = Blade,
         inputs
         {
             item 8 tags[base:charcoal],
-            item 1 [Base.SteelBar;Base.Katana;Base.Katana_Blade;Base.SwordBlade;Base.SwordBlade_NoTang;Base.MacheteBlade;Base.MacheteBlade_NoTang],
+            item 1 [Base.SteelBar;Base.Katana_Blade;Base.SwordBlade;Base.SwordBlade_NoTang;Base.MacheteBlade;Base.MacheteBlade_NoTang],
             item 1 tags[base:smithinghammer] mode:keep flags[Prop1;MayDegradeLight],
             item 1 tags[base:metalworkingpliers;base:tongs] mode:keep flags[Prop2;MayDegradeLight],
         }

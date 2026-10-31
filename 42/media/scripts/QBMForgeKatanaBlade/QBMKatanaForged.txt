@@ -9,8 +9,8 @@ module Base {
         BaseSpeed = 1.0,
         BreakSound = KatanaBreak,
         Categories = base:longblade,
-        ConditionLowerChanceOneIn = 15,
-        ConditionMax = 10,
+        ConditionLowerChanceOneIn = 20,
+        ConditionMax = 13,
         CritDmgMultiplier = 6.0,
         CriticalChance = 35.0,
         DamageCategory = Slash,
@@ -45,6 +45,6 @@ module Base {
         WeaponSprite = Katana,
         Sharpness = 1.0,
         OnBreak = OnBreak.Katana,
-        Researchablerecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_Sword_Blade;Forge_Straight_Razor,
+        Researchablerecipes = Forge_Crude_Shortsword_Blade;Forge_Crude_Sword_Blade;Forge_ShortSwordBlade;Forge_Sword_Blade;Forge_Straight_Razor;Forge_Katana_Blade,
     }
 }
